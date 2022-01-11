@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grupo 07</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">JQuery Examples</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://grupo01-home-page.000webhostapp.com/index.html">Home Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#Integrantes" aria-current="page">Integrantes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ejemplos" aria-current="page">Ejemplos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Example headline.</h1>
+            <p>Some representative placeholder content for the first slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>One more for good measure.</h1>
+            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing" id="Integrantes">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="./img/mateo.jpg"class="bd-placeholder-img rounded-circle" width="140" height="140">
+
+        <h2>Mateo Quintanilla</h2>
+        <p>mjquintanilla@espe.edu.ec</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="./img/david.png"class="bd-placeholder-img rounded-circle" width="140" height="140">
+
+        <h2>David Tamayo</h2>
+        <p>datamayo4@espe.edu.ec</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="./img/amy.jpg"class="bd-placeholder-img rounded-circle" width="140" height="140">
+
+        <h2>Amy Sáchez</h2>
+        <p>arsanchez5@espe.edu.ec</p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="ejemplos">
+      <div class="col-md-12">
+        <h2 class="featurette-heading">jQuery Traversing. <br>
+          <span class="text-muted">Se encuentra dividido en:</span></h2>
+          <ul class="list-group">
+            <li class="list-group-item"><h5 class="mb-1">Ancestors</h5>
+              <p class="mb-1">jQuery parent()</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/parentcodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/parentpantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+        <p class="mb-1">jQuery parents()</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/parentscodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/parentspantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+        <p class="mb-1">jQuery parentsUntil()</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/untilcodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/untilpantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+            </li>
+            <li class="list-group-item"><h5 class="mb-1">Descendants</h5>
+              <p class="mb-1">jQuery children()</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/childcodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/childpantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+        <p class="mb-1">jQuery find()</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/findcodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/findpantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+            </li>
+            <li class="list-group-item">Siblings
+        <p class="mb-1">jQuery siblings()</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/siblingcodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/siblingpantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+        <p class="mb-1">jQuery next()</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/nextcodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/nextpantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+        <p class="mb-1">jQuery nextAll()</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/nextallcodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/nextallpantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+        <p class="mb-1">jQuery nextUntil()</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/nextuntilcodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/nextuntilpantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+            </li>
+            <li class="list-group-item">Filtering
+             <p class="mb-1">jQuery first()</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/firstcodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/firstpantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div> 
+        <p class="mb-1">jQuery last()</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/lastcodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/lastpantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div> 
+        <p class="mb-1">jQuery eq()</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/eqcodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/eqpantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div> 
+        <p class="mb-1">jQuery filter()</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/filtercodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/filterpantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+        <p class="mb-1">jQuery not()</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/notcodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/notpantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+
+
+
+            </li>
+          </ul>
+      </div>
+      
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">jQuery Hide/Show</h2>
+        <p class="lead">A continuación, se verán ejemplos en los que se pueden utilizar estas herramientas.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="img/iconhideshow.png" class="bd-placeholder-img img-fluid mx-auto" width="500" height="500" >
+        </div>
+      </div>
+    <div class="col-md-12">
+          <ul class="list-group">
+            <li class="list-group-item"><p class="mb-1">jQuery hide()</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/hidecodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/hidepantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+            </li>
+            <li class="list-group-item"><p class="mb-1">jQuery hide() and show()</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/hideshowcodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/hideshowpantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+            </li>
+            <li class="list-group-item"><p class="mb-1">jQuery toggle()</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/togglecodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/togglepantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+            </li>
+          </ul>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">jQuery Get/Set Content & Attributes</h2>
+        <p class="lead">Se va a presentar una compilación de los principales ejemplos para utilizar de modo correcto las herramientas.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="img/getset.png" class="bd-placeholder-img img-fluid mx-auto" width="500" height="500" >
+    </div>
+    <div class="col-md-12">
+          <ul class="list-group">
+            <li class="list-group-item"><p class="mb-1">jQuery text() and html() - Get</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/getcodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/getpantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+            </li>
+            <li class="list-group-item"><p class="mb-1">jQuery val() - Get</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/valcodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/valpantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+            </li>
+            <li class="list-group-item"><p class="mb-1">jQuery text(), html() and val() - Set</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/set1codigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/set1pantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+            </li>
+          </ul>
+      </div>
+      </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">jQuery Filters</h2>
+        <p class="lead">A continuación, se verán ejemplos en los que se pueden utilizar estas herramientas.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="img/filtros.png" class="bd-placeholder-img img-fluid mx-auto" width="500" height="500" >
+        </div>
+      </div>
+    <div class="col-md-12">
+          <ul class="list-group">
+            <li class="list-group-item"><p class="mb-1">Filter Table</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/tablecodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/tablepantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+            </li>
+            <li class="list-group-item"><p class="mb-1">Filter List</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/listacodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/listapantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+            </li>
+          </ul>
+      </div>
+      <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">jQuery Slide</h2>
+        <p class="lead">Se va a presentar una compilación de los principales ejemplos para utilizar de modo correcto las herramientas.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="img/slide.png" class="bd-placeholder-img img-fluid mx-auto" width="500" height="500" >
+    </div>
+    <div class="col-md-12">
+          <ul class="list-group">
+            <li class="list-group-item"><p class="mb-1">jQuery slideDown()</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/slidecodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/slidepantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+            </li>
+            <li class="list-group-item"><p class="mb-1">jQuery slideUp()</p>
+        <div class="col-auto d-none d-lg-block">
+         <img src="img/upcodigo.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" > 
+         <img src="img/uppantalla.png" class="bd-placeholder-img img-fluid mx-auto" width="350" height="100" >
+        </div>
+            </li>
+          </ul>
+      </div>
+      </div>
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-6">
+        <h2 class="featurette-heading">jQuery -  <span class="text-muted">Clases Get y Set CSS </span></h2>
+        <p class="lead">Metodos en lo que se puede manipular CSS</p>
+        <ul>
+          <li>addClass() - Agrega una o más clases a los elementos seleccionados</li>
+            <li>removeClass() - Elimina una o más clases de los elementos seleccionados</li>
+            <li>toggleClass() - Alterna entre agregar / eliminar clases de los elementos seleccionados</li>
+            <li>css() - Establece o devuelve el atributo de estilo.</li>
+
+        </ul>
+        <p>En el ejemplo se muestra como se agregan atributos de clase a los diferentes elementos </p>
+      </div>
+
+      <div class="col-md-5">
+        <img src="img/getsetcss.png" class="bd-placeholder-img" width="500" height="300" >
+        <img src="img/salida_getset.png" class="bd-placeholder-img" width="300" height="300" >
+
+      </div>
+    </div>
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">JQuery <span class="text-muted">AJAX Método load()</span></h2>
+        <p class="lead">lad() es el método jQuery para cargar datos de un servidor y devuelven el elemento seleccionado</p>
+        <h4>Sintaxis</h4><p>$(selector).load(URL,data,callback);</p>
+        <p>El el sguiente ejemplo se muestra un parámentro de datos donde se especifica una cadena para ser enviada con la solicitud</p>
+        <p>Se toma como ejemplo el archivo externo demo_test.txt</p>
+      </div>
+     <div class="col-md-5">
+        <img src="img/ajax.png" class="bd-placeholder-img" width="500" height="300" >
+        <img src="img/salidaAjax.png" class="bd-placeholder-img" width="300" height="250" >
+
+      </div>
+    </div>
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading"><span>Ajax </span>Método Get() y Post()</h2>
+        <p class="lead">Estos métodos son utiliados para solicitar los datos de un servidor utilizando HTTP GET O POST </p>
+        <ul>
+          <li>Get: Solicitud de datos de un recurso en específico</li>
+          <li>Post: Envío de datos para el procesamiento de un recurso en específico</li>
+        </ul>
+        <p>El método get se utiliza para recuperar los datos del servidor, es decir que edevuelve los datos almacenados en el cache</p>
+        <p>El método post no almacena los datos del caché, por lo que se usa para enviar los datos de una solicitud</p>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col-lg-6">
+        <div class="col-md-5">
+        <img src="img/httpget.png" class="bd-placeholder-img" width="500" height="300" >
+        <img src="img/salidaHttpGet.png" class="bd-placeholder-img" width="300" height="250" >
+
+      </div>
+
+        <h2>.get()</h2>
+        <p>El $.get()método solicita datos del servidor con una solicitud HTTP GET.</p>
+      </div>
+      <div class="col-lg-6">
+        
+        <div class="col-md-5">
+        <img src="img/httpPost.png" class="bd-placeholder-img" width="500" height="300" >
+        <img src="img/salidahttpPost.png" class="bd-placeholder-img" width="300" height="250" >
+
+      </div>
+        <h2>.post()</h2>
+        <p>El $.post()método solicita datos del servidor mediante una solicitud HTTP POST.</p>
+        
+      </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading"><span>jQuery </span>Añadir Elementos</h2>
+        <p class="lead">Para agregar nuevo contenido HTML</p>
+        <p>Se tiene algúnos métodos que se utilizan para agrgar nuevo contenido</p>
+        <ul>
+          <li>append() - Inserta contenido al final de los elementos seleccionados</li>
+          <li>prepend() - Inserta contenido al principio de los elementos seleccionados</li>
+          <li>after() - Inserta contenido después de los elementos seleccionados</li>
+          <li>before() - Inserta contenido antes de los elementos seleccionados</li>
+        </ul>
+        <p>En el siguiente ejemplo se puede agregar varios elementos nuevos con after() y before()</p>
+        <p>Con estos métodos se pueden tomar un número infinito de elementos como parámetros</p>
+
+        
+      </div>
+    
+    <div class="col-md-5">
+        <img src="img/aftbef.png" class="bd-placeholder-img" width="500" height="300" >
+        <img src="img/salidaaftbef.png" class="bd-placeholder-img" width="300" height="250" >
+
+      </div>
+</div>
+<hr class="featurette-divider">
+<div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading"><span>jQuery </span>Eliminar Elementos</h2>
+        <p class="lead">Para agregar nuevo contenido HTML</p>
+        <p>Se tiene algúnos métodos que se utilizan para agrgar nuevo contenido</p>
+        <ul>
+          <li>remove() - Elimina el elemento seleccionado (y sus elementos secundarios)</li>
+          <li>empty() - Elimina los elementos secundarios del elemento seleccionado</li>
+          
+        </ul>
+        <p>En el siguiente ejemplo se puede agregar varios elementos nuevos con after() y before()</p>
+        <p>Con estos métodos se pueden tomar un número infinito de elementos como parámetros</p>
+        
+        
+      </div>
+   
+    <div class="col-md-5">
+        <img src="img/remove.png" class="bd-placeholder-img" width="500" height="300" >
+        <img src="img/salidaremove.png" class="bd-placeholder-img" width="300" height="250" >
+
+      </div>
+</div>
+<hr class="featurette-divider">
+<div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading"><span>jQuery </span>Desvancer Elementos</h2>
+        <p class="lead">Aparecer/Desaparecer</p>
+        <p>Se tiene algúnos métodos que se utilizan para que los elementos aparezcan o desaparezcan</p>
+        <ul>
+          <li>fadeIn()</li>
+          <li>fadeOut()</li>
+          <li>fadeToggle()</li>
+          <li>fadeTo()</li>
+        </ul>
+        <p>En el siguiente ejemplo se muesttra la ejecución del método fadeToggle(),, que alterna los métodos fadeIn() fadeOut() </p>
+        
+        
+      </div>
+    
+    <div class="col-md-5">
+        <img src="img/fade.png" class="bd-placeholder-img" width="450" height="350" >
+        <br><br>
+        <img src="img/salidaFade.gif" class="bd-placeholder-img" width="250" height="350" >
+
+      </div>
+</div>
+<hr class="featurette-divider">
+<div class="row featurette">
+      <div class="col-md-7 ">
+        <h2 class="featurette-heading"><span>jQuery </span>Animación</h2>
+        <p class="lead">Animate()</p>
+        <p>Este método se utiliza para la creación de animaciones personalizadas</p>
+      
+       <blockquote class="blockquote">
+          <pre><code>$(selector).animate({params},speed,callback);</code></pre>
+        </blockquote>
+        <p>En el siguiente ejemplo se muestra el uso de este método, donde se mueve un elemento <code>&lt;div&gt;</code></p>
+        <p>A demás, los elementos HTML se encuentran en una posici'n estática, por lo que para manipular su posición, se establece la posición CSS del elemento de fijo a absoluto</p>
+      </div>
+    
+    <div class="col-md-5">
+        <img src="img/animate.png" class="bd-placeholder-img" width="400" height="300" >
+        <br><br>
+        <img src="img/animate.gif" class="bd-placeholder-img" width="300" height="200" >
+
+      </div>
+</div>
+
+<div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Animaciones de parada de jQuery <span class="text-muted"></span></h2>
+        <p class="lead">El método jQuery stop () se utiliza para detener animaciones o efectos antes de que finalice.</p>
+        <h2>Método jQuery stop ()</h2>
+        <p>El stop()método jQuery se utiliza para detener una animación o efecto antes de que finalice.
+
+El stop()método funciona para todas las funciones de efectos de jQuery, incluidas las animaciones de deslizamiento, desvanecimiento y personalizadas. </p>
+      </div>
+      <div class="col-md-5">
+        <text x="50%" y="50%" fill="#aaa" dy=".3em"><img src="./img/1.png" alt=""></text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Métodos de eventos de jQuery <span class="text-muted"></span></h2>
+        <p class="lead">Todas las acciones de los diferentes visitantes a las que puede responder una página web se denominan eventos.
+        Un evento representa el momento preciso en que sucede algo.
+      Ejemplos: moviendo el mouse sobre un elemento, seleccionando un botón de radio, haciendo clic en un elemento. <br>El término "incendios / despedidos" se usa a menudo con eventos. Ejemplo: "El evento de pulsación de tecla se activa en el momento en que pulsa una tecla". <br> A continuación, se muestran algunos eventos DOM habituales: <br> <img src="./img/2.1.png" alt=""></p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="./img/2.png" alt=""><br>
+        <img src="./img/2.2.png" alt=""> <br>
+        <img src="./img/2.3.png" alt="">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">jQuery - Dimensiones <span class="text-muted"></span></h2>
+        <p class="lead">Con jQuery, es fácil trabajar con las dimensiones de los elementos y la ventana del navegador. <br> jQuery tiene varios métodos importantes para trabajar con dimensiones: <br>
+          <ul><li>width()</li>
+          <li>height()</li>
+          <li>innerWidth()</li>
+          <li>innerHeight()</li>
+          <li>outerWidth()</li>
+          <li>outerHeight()</li></ul>
+          <br>El width()método establece o devuelve el ancho de un elemento (excluye el relleno, el borde y el margen).
+
+El height()método establece o devuelve la altura de un elemento (excluye el relleno, el borde y el margen).
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img src="./img/3.png" alt="">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">jQuery - Método css () <span class="text-muted"></span></h2>
+        <p class="lead">El css()método establece o devuelve una o más propiedades de estilo para los elementos seleccionados. <br> Para devolver el valor de una propiedad CSS especificada, utilice la siguiente sintaxis: <i>css("propertyname"); </i><br>Para establecer una propiedad CSS especificada, utilice la siguiente sintaxis: <i>css("propertyname","value");</i>
+          <br>Para establecer varias propiedades de CSS, utilice la siguiente sintaxis: <i>css({"propertyname":"value","propertyname":"value",...});</i></p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="./img/4.png" alt=""><br>
+        <img src="./img/4.1.png" alt=""> 
+      </div>
+    </div>
+
+<hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Selectores de jQuery <span class="text-muted"></span></h2>
+        <p class="lead">Los selectores de jQuery son una de las partes más importantes de la biblioteca jQuery. <br>Los selectores de jQuery le permiten seleccionar y manipular elementos HTML. <br>
+
+Los selectores de jQuery se utilizan para "buscar" (o seleccionar) elementos HTML en función de su nombre, identificación, clases, tipos, atributos, valores de atributos y mucho más. Se basa en los selectores CSS existentes y, además, tiene algunos selectores personalizados propios. <br>
+
+Todos los selectores en jQuery comienzan con el signo de dólar y paréntesis: $ (). <br> El selector de elementos de jQuery selecciona elementos en función del nombre del elemento.
+<br> El selector de jQuery usa el atributo id de una etiqueta HTML para encontrar el elemento específico.#id <br>
+
+Una identificación debe ser única dentro de una página, por lo que debe usar el selector #id cuando desee encontrar un elemento único y único. <br>
+
+Para encontrar un elemento con una identificación específica, escriba un carácter hash, seguido de la identificación del elemento HTML: <i>$("#test")</i><br> El .classselector de jQuery busca elementos con una clase específica. <br>
+
+Para buscar elementos con una clase específica, escriba un carácter de punto, seguido del nombre de la clase: <i>$(".test")</i></p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="./img/5.png" alt="">
+      </div>
+    </div>
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; Grupo 07 &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
